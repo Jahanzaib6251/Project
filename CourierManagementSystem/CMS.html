@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courier management system</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body style="background-image: url('https://files.codegrape.com/171203.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;">
+   
+    <ul>
+        <li class="active"><a href="#">Welcome Courier Management System</a></li>
+        <li><a href="Login.html">login
+        </a></li>
+        
+    </ul>
+
+   
+
+        <div style="width: 350px; margin-top: 50px; top: 50%; left: 50%; transform: translate(-50%,-50%); position: absolute;">
+        
+        <form style="border: 2px solid black; background-color:#c0d0d3 ; padding: 50px; height: fit-content;"  action="displayingalldata.php" method="post">
+        
+        
+            <label for="trackingid" style="height: 30px; height: 50px; font-size: xx-large; font-weight: bolder;" ><i>TRACK ID:</i></label><br><br>
+            <input type="text" name="trackingid" id="trackingid" style="color: black; font-weight: bolder; font-size: large;"><br><br>
+    
+            <input type="submit" value="track here" style="background-color: chocolate; height: 50px; font-size: x-large; font-weight: bolder;">
+        
+        
+        
+        
+        </form>
+    </div>
+        <div style="width: 250px; margin-top: 0px; top: 50%; left: 80%; transform: translate(-50%,-50%); position: absolute;">
+        
+            <form action="seeallshipments.php" method="post">
+            
+            
+                
+        
+                <input type="submit" value="see shipments of every city" style="background-color: chocolate; height: 50px; font-size: x-large; font-weight: bolder; ">
+            
+            
+            
+            
+            </form>
+        
+        
+        
+        
+        
+        </div>
+        
+</body>
+</html>

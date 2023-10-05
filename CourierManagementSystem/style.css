@@ -1,0 +1,40 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    background-color: black;
+    line-height: 36px;
+    font-size: 13px;
+
+}
+li{
+    float: left;
+    border-right: 1px solid blue;
+    font-size: large;
+}
+a{
+    padding: 0 50px;
+    color: #fff;
+    word-spacing: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+.active a{
+    background-color: blue;
+}
+
+.c{
+    background-color: aquamarine;
+    margin-top: 250px;
+    padding: 50 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}

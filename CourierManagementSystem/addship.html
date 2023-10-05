@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #b6f7f7;">
+    <a style="background-color: chocolate; height: 50px; font-size: x-large; font-weight: bolder; justify-content: center;" href="Manage.html">back</a><br>
+    <div style="width: 500px; top: 50%; left: 50%; transform: translate(-50%,-50%); position: absolute; border: 3px solid black; height: fit-content;padding: 20px; ">
+    
+        <form style="border: 1px solid black; background-color: lightgreen; padding: 10px; line-height: 18px; text-align: center; font-weight: bolder; font-size: x-large; " action="savingshipmentsdata.php" method="post">
+        
+        <label for="shippername" style="height: 30px;" >shipper name:</label>
+        <input type="text" name="shippername" id="shippername" style="color: black;"><br><br>
+
+        <label for="shipperaddress" style="height: 30px;">shipper address:</label>
+        <input type="text" name="shipperaddress" id="shipperaddress" style="color: black;"><br><br>
+
+        <label for="shippercontact" style="height: 30px;">shipper contact:</label>
+        <input type="text" name="shippercontact" id="shippercontact" style="color: black;"><br><br>
+        
+        
+        <label for="receivername" style="height: 30px;" >receiver name:</label>
+        <input type="text" name="receivername" id="receivername" style="color: black;"><br><br>
+            
+<!-- 
+        <label for="receiveraddress" style="height: 30px;">receiver address:</label>
+        <input type="text" name="receiveraddress" id="receiveraddress" style="color: black;"><br><br>
+ -->
+        <label for="receivercontact" style="height: 30px;">receiver contact:</label>
+        <input type="text" name="receivercontact" id="receivercontact" style="color: black;"><br><br>
+                
+        
+        <label for="shipmentweight" style="height: 30px;">shipment weight:</label>
+        <input type="text" name="shipmentweight" id="shipmentweight" style="color: black;"><br><br>
+
+        <label for="shipmentdescription" style="height: 30px;">shipment description:</label>
+        <input type="text" name="shipmentdescription" id="shipmentdescription" style="color: black;"><br><br>
+
+        <label for="shipmentLocation" style="height: 30px;">shipment location:</label>
+        <select name="shipmentLocation" id="shipmentLocation" style=" font-size: large; font-weight: bolder;"> 
+            <option value="gujranwala">gujranwala</option>
+            <option value="lahore" >lahore</option>
+            <option value="sialkot" >sialkot</option>
+            <option value="wazirabad" >wazirabad</option>
+        </select><br><br>
+
+        <label for="shipmentprice" style="height: 30px;">shipment price:</label>
+        <input type="text" name="shipmentprice" id="shipmentprice" style="color: black;"><br><br>
+
+        <label for="shipmentpayment" name="shipmentpayment" style="height: 30px;">choose payment:</label>
+        <select name="shipmentpayment" id="shipmentpayment" style=" font-size: large; font-weight: bolder;"> 
+            <option value="credit"> credit</option>
+            <option value="cod">cash on delivery</option>
+        </select><br><br>
+
+        <input type="submit" value="save" style="background-color: chocolate; font-size: x-large; font-weight: bolder; ">
+    </form>
+    </div>
+</body>
+</html>
